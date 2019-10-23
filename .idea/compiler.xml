@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo_bean" />
+        <module name="demo_service" />
+        <module name="demo_provider" />
+        <module name="demo_comsumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo_bean" target="1.8" />
+      <module name="demo_comsumer" target="1.8" />
+      <module name="demo_parent" target="1.8" />
+      <module name="demo_provider" target="1.8" />
+      <module name="demo_service" target="1.8" />
+      <module name="springboot_dubbo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo_bean" options="-parameters" />
+      <module name="demo_comsumer" options="-parameters" />
+      <module name="demo_parent" options="" />
+      <module name="demo_provider" options="-parameters" />
+      <module name="demo_service" options="-parameters" />
+      <module name="springboot_dubbo" options="-parameters" />
+    </option>
+  </component>
+</project>
