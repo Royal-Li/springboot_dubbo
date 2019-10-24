@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c33c326-b477-4b7c-8804-4bc642242457" name="Default Changelist" comment="" />
+    <list default="true" id="4c33c326-b477-4b7c-8804-4bc642242457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_provider/src/main/java/com/person/test/setting/MyCommandLineRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_provider/src/main/java/com/person/test/setting/MyDisposableBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_provider/src/main/java/com/person/test/setting/MyExitCodeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_provider/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_provider/src/main/java/com/person/test/DemoProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_provider/src/main/java/com/person/test/DemoProviderApplication.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -43,8 +54,14 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="lzs_local" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1SY1Tdt7eEovn7f59hGCU7jpUOc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -55,7 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -132,17 +149,17 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.27357033" />
+        <option name="contentProportion" value="0.2496136" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@120d199d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e477556f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@120d199d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b3eab1d0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e477556f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3288563e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -163,14 +180,26 @@
       <workItem from="1571725727403" duration="6800000" />
       <workItem from="1571732684573" duration="5892000" />
       <workItem from="1571791473499" duration="23864000" />
+      <workItem from="1571898012671" duration="7685000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="ZooKeeperConfig">
-    <option name="host" value="127.0.0.1" />
+    <option name="host" value="172.28.14.131" />
     <option name="port" value="2181" />
     <option name="charset" value="UTF-8" />
     <option name="whitePaths" value="/" />
